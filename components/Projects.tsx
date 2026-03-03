@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Github, ExternalLink } from "lucide-react";
+import { Github } from "lucide-react";
 import Image from "next/image";
 
 const projects = [
@@ -108,12 +108,6 @@ export default function Projects() {
                         <a href={project.github} target="_blank" rel="noopener noreferrer"
                           className="text-[#64748b] hover:text-white transition-colors">
                           <Github size={18} />
-                        </a>
-                      )}
-                      {"demo" in project && project.demo && (
-                        <a href={project.demo as string} target="_blank" rel="noopener noreferrer"
-                          className="text-[#64748b] hover:text-white transition-colors">
-                          <ExternalLink size={18} />
                         </a>
                       )}
                     </div>

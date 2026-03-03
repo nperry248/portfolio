@@ -5,6 +5,17 @@ import Image from "next/image";
 
 const projects = [
   {
+    name: "JobHunter AI",
+    tagline: "Autonomous multi-agent job application system",
+    description:
+      "A multi-agent Python system that autonomously scrapes, scores, and applies to SWE jobs. An Orchestrator coordinates a Scraper Agent (Greenhouse + Lever), a Resume Match Agent (Claude API, 0–100 scoring), and an Apply Agent (Playwright automation) — all backed by FastAPI, PostgreSQL, Redis, and a React dashboard.",
+    tags: ["Python", "FastAPI", "Claude AI", "PostgreSQL", "React", "Playwright"],
+    github: "https://github.com/nperry248/JobHunter",
+    image: "/images/jobhunter.png",
+    accent: "#4f9cf9",
+    featured: true,
+  },
+  {
     name: "Roam",
     tagline: "Full-stack mobile travel tracker",
     description:
@@ -12,7 +23,7 @@ const projects = [
     tags: ["React Native", "Supabase", "TypeScript", "Expo", "Gemini AI"],
     github: "https://github.com/nperry248/Roam",
     image: "/images/roam8.png",
-    accent: "#4f9cf9",
+    accent: "#22d3ee",
     featured: true,
   },
   {
@@ -24,18 +35,6 @@ const projects = [
     github: "https://github.com/nperry248/PhishGuard",
     image: "/images/phishgaurd3.png",
     accent: "#f97316",
-    featured: true,
-  },
-  {
-    name: "CineGuide",
-    tagline: "AI-powered movie discovery app",
-    description:
-      "Describe your mood in plain English — \"cozy rainy Sunday\" or \"can't sleep, mind-bending thriller\" — and Gemini translates it into structured filters. TMDB returns matching movies with posters, ratings, and real-time streaming availability across Netflix, Hulu, and more.",
-    tags: ["React", "Vite", "Gemini AI", "TMDB API"],
-    github: "https://github.com/nperry248/CineGuide",
-    demo: "https://cineguide-wheat.vercel.app",
-    image: "/images/cineguide4.png",
-    accent: "#a855f7",
     featured: true,
   },
   {

@@ -20,7 +20,7 @@ export default function About() {
             01. ABOUT ME
           </motion.p>
           <motion.h2 variants={fadeUp} className="text-4xl font-black text-white mb-12 tracking-tight">
-            Building things I&apos;m proud of.
+            Building and Learning.
           </motion.h2>
 
           <div className="grid md:grid-cols-2 gap-16">

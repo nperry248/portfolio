@@ -33,7 +33,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
-          className="text-6xl md:text-8xl font-black text-white tracking-tight leading-none mb-4"
+          className="text-6xl md:text-7xl font-black text-white tracking-tight leading-none mb-4"
         >
           Nick Perry
         </motion.h5>
@@ -58,7 +58,6 @@ export default function Hero() {
         >
           Northwestern CS &apos;26 · Prev Google SWE intern
           <br />
-          I care about systems, interfaces, and shipping products people actually use.
         </motion.p>
 
         <motion.div
